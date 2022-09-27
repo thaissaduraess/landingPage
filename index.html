@@ -21,7 +21,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#quem-somos">Quem somos?</a>
+                        <a class="nav-link" href="#principal">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">Quem Somos?</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#perguntas-frenquentes">Perguntas Frequentes</a>
@@ -33,7 +36,8 @@
             </div>
         </div>
     </nav>
-        <section class="row">
+        <section id="principal" class="row">
+            <div class="row">
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <img id="img-layout" src="https://seeklogo.com/images/C/cbf-brasil-football-federation-logo-9DFCA91AA7-seeklogo.com.png" class="d-inline-block align-text-top" alt="...">
                 </div>
@@ -41,12 +45,13 @@
                     <div class="layout">
                         <h3 id="title-menor" class="title">CAMISA DA COPA</h3>
                         <h1 id="title-maior">SELEÇÃO BRASILEIRA</h1>
-                        <p>Você achou alto o preço das novas camisas do Brasil?<br>
+                        <p id="p-layout">Você achou alto o preço das novas camisas do Brasil?<br>
                         Então, você chegou ao lugar certo, vendemos camisas da Seleção Brasileira<br>
                         com o menor preço e com a qualidade da original.</p>
                     </div>
                 </div>
-                <div id="list" class="d-flex justify-content-around align-items-sm-center text-uppercase text-light">
+            </div>
+                <div id="list" class="d-flex justify-content-around align-items-sm-center align-self-end text-uppercase text-light">
                     <div class="d-flex">
                         <img src="assets/layout/money-list.png" width="50" height="50" >
                         <div class="title text-center align-self-sm-center m-1">Preço</div>
@@ -86,34 +91,25 @@
             </div>
         </section>
 
-        <section id="perguntas-frenquentes" class="text-light container">
-            <div class="container align-items-center">
+        <section id="perguntas-frenquentes" class="text-light d-flex justify-content-center align-items-center">
+            <div class="container">
                 <div class="mb-3">
-                    <h1 class="m-2 text-center">FAQ - Perguntas Frequentes</h1>
-                    <div class="card-body">
-                        <h3 class="card-title">1- Existe um valor mínimo de pedido? </h3>
-                        <h5 id="resposta" class="card-text border border-warning mb-3">Não.</h5>
+                    
+                    <div class="card-body m-4">
+                        <h3 class="card-title pb-sm-3">Frete Grátis?</h3>
+                        <h5 id="card-perguntas" class="card-text p-lg-3">Sim, Frete Gratis para todo brasil na compra de 3 ou mais camisas.</h5>
                     </div>
-                    <div class="card-body">
-                        <h3 class="card-title">2- É possível encomendar um produto que não esteja à venda? </h3>
-                        <h5 id="resposta" class="card-text border border-warning mb-3">Sim, mas será necessário, enviar todas as informações do produto.</h5>
+
+                    <div class="card-body m-4">
+                        <h3 class="card-title pb-sm-3">Qual o prazo de entrega?</h3>
+                        <h5 id="card-perguntas" class="card-text p-lg-3">Nossos produtos são importados de fora do Brasil, demorando entre 10 a 20 dias uteis para serem entregues, levando em média 12 dias para você ter sua encomenda em mãos após o envio. Trabalhamos com os fornecedores mais rapidos do mercado.</h5>
                     </div>
-                    <div class="card-body">
-                        <h3 class="card-title">3- Eu consigo mandar uma parte da compra para um endereço e outra parte para outro?</h3>
-                        <h5 id="resposta" class="card-text border border-warning mb-3">Não. Todos os produtos adquiridos em determinada Compra serão entregues conjuntamente, no mesmo endereço. Para enviar produtos para dois endereços diferentes, será necessário realizar duas Compras diferentes, em momentos distintivos.</h5>
+                    
+                    <div class="card-body m-4">
+                        <h3 class="card-title pb-sm-3">Quanto tempo para enviar?</h3>
+                        <h5 id="card-perguntas" class="card-text p-lg-3">O Limite para envio varia entre 2-5 dias uteis, levando em media 2 dias após a confirmação do pagamento</h5>
                     </div>
-                    <div class="card-body">
-                        <h3 class="card-title">4- Qual o prazo de entrega? </h3>
-                        <h5 id="resposta" class="card-text border border-warning mb-3">Nossos produtos são importados de fora do Brasil, demorando entre 10 a 20 dias uteis para serem entregues, levando em média 12 dias para você ter sua encomenda em mãos após o envio. Trabalhamos com os fornecedores mais rapidos do mercado.</h5>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">5- Quanto tempo para enviar? </h3>
-                        <h5 id="resposta" class="card-text border border-warning mb-3">O Limite para envio varia entre 2-5 dias uteis, levando em media 2 dias após a confirmação do pagamento</h5>
-                    </div>
-                    <div class="card-body">
-                        <h3 class="card-title">6- Frete Grátis? </h3>
-                        <h5 id="resposta" class="card-text border border-warning mb-3">Sim, Frete Gratis para todo brasil na compra de 3 ou mais camisas.</h5>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -124,7 +120,7 @@
                     <h4>Contato</h4>
                     <h4>Para fazer contato conosco, mande mensagem no WhatsApp</h4>
                     <button class="btn btn-success">
-                        <a href="https://wa.me/5511943202436">Fale conosco</a>
+                        <a href="https://wa.me/5511943202436" class="text-light">Fale conosco</a>
                     </button>
                     <p>
                         A empresa que se define como “uma escola das coisas que não se aprendem na escola” deixa os próprios alunos falarem de sua experiência na página de sobre. Isso ajuda a passar credibilidade, afinal, é mais fácil confiar nos próprios clientes, que experimentaram o produto ou serviço, do que na voz da própria empresa. Incluir relatos de clientes na página de sobre pode dar aos visitantes uma opinião mais realista e embasada sobre seu negócio.

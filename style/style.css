@@ -1,11 +1,25 @@
 :root {
- --y-brasil: #ffdf00;
- --b-brasil: #002776;
- --g-brasil: #009c3b;
+ --y-brasil: #f1e45f;
+ --b-brasil: #132f88;
+ --g-brasil: #00d972;
 }
+
+
 
 body {
     background-color: var(--y-brasil)!important;
+}
+
+#title-menor {
+    color: var(--g-brasil)
+}
+
+#title-maior {
+    color: var(--b-brasil)
+}
+
+#p-layout {
+    color: var(--b-brasil)
 }
 
 #img-navbar {
@@ -35,8 +49,16 @@ section{
 #list{
     background-color: var(--g-brasil);
     width: 100%!important;
+    height: 125px;
 }
 
 #perguntas-frenquentes{
-    background-color: var(--g-brasil)!important;
+    background-color: var(--b-brasil)!important;
+    width: 100%!important;
 }
+
+#card-perguntas{
+    border: 2px solid var(--y-brasil)!important;
+    border-radius: 6px;
+}
+
