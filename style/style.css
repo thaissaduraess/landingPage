@@ -1,3 +1,42 @@
+:root {
+ --y-brasil: #ffdf00;
+ --b-brasil: #002776;
+ --g-brasil: #009c3b;
+}
+
 body {
-    background-color: #ffdf00!important;
+    background-color: var(--y-brasil)!important;
+}
+
+#img-navbar {
+    border-radius: 150px!important;
+}
+
+#img-layout {
+    width: auto;
+    height: 300px!important;
+}
+
+#img-quem-somos{
+    width: auto;
+    height: 60vh;
+}
+
+#img-quem{
+    width: auto;
+    height: 300px!important;
+    border-radius: 150px!important;
+}
+
+section{
+    height: 100vh;
+}
+
+#list{
+    background-color: var(--g-brasil);
+    width: 100%!important;
+}
+
+#perguntas-frenquentes{
+    background-color: var(--g-brasil)!important;
 }
