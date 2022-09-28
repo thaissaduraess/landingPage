@@ -1,14 +1,29 @@
 :root {
- --y-brasil: #f1e45f;
- --b-brasil: #132f88;
- --g-brasil: #00d972;
+    --y-brasil: #f1e45f;
+    --b-brasil: #132f88;
+    --g-brasil: #00d972;
 }
-
-
 
 body {
     background-color: var(--y-brasil)!important;
 }
+
+/* section */
+
+#perguntas-frenquentes{
+    background-color: var(--b-brasil)!important;
+    width: 100%!important;
+}
+
+#contact {
+    background-color: var(--g-brasil);
+}
+
+section{
+    height: 100vh;
+}
+
+/* section layout-principal */
 
 #title-menor {
     color: var(--g-brasil)
@@ -21,6 +36,33 @@ body {
 #p-layout {
     color: var(--b-brasil)
 }
+
+#list{
+    background-color: var(--g-brasil);
+    width: 100%!important;
+    height: 125px;
+}
+
+/* section perguntas-frenquentes */
+
+#p-somos {
+    color: var(--b-brasil)
+}
+
+/* section perguntas-frenquentes */
+
+#card-perguntas{
+    border: 2px solid var(--y-brasil)!important;
+    border-radius: 6px;
+}
+
+/* section contact */
+
+#form-contact{
+    width: 400px;
+}
+
+/* imagens */
 
 #img-navbar {
     border-radius: 150px!important;
@@ -41,24 +83,3 @@ body {
     height: 300px!important;
     border-radius: 150px!important;
 }
-
-section{
-    height: 100vh;
-}
-
-#list{
-    background-color: var(--g-brasil);
-    width: 100%!important;
-    height: 125px;
-}
-
-#perguntas-frenquentes{
-    background-color: var(--b-brasil)!important;
-    width: 100%!important;
-}
-
-#card-perguntas{
-    border: 2px solid var(--y-brasil)!important;
-    border-radius: 6px;
-}
-

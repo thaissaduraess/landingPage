@@ -36,7 +36,7 @@
             </div>
         </div>
     </nav>
-        <section id="principal" class="row">
+        <section id="principal" class="d-grid">
             <div id="layout-principal" class="d-flex align-items-end">
                 <div class="col-md-4 d-flex justify-content-center align-items-center">
                     <img id="img-layout" src="https://seeklogo.com/images/C/cbf-brasil-football-federation-logo-9DFCA91AA7-seeklogo.com.png" class="d-inline-block align-text-top" alt="...">
@@ -79,9 +79,9 @@
                     </div>
                     <div class="d-flex col-6" id="text-quem">
                         <div class="text-center">
-                            <h4>Quem somos?</h4>
-                            <h5>Arsenal Outfit</h5>
-                            <p>
+                            <h5 id="title-menor">Quem somos?</h5>
+                            <h3 id="title-maior">Arsenal Outfit</h3>
+                            <p id="p-somos">
                                 A empresa que se define como “uma escola das coisas que não se aprendem na escola” deixa os próprios alunos falarem de sua experiência na página de sobre. Isso ajuda a passar credibilidade, afinal, é mais fácil confiar nos próprios clientes, que experimentaram o produto ou serviço, do que na voz da própria empresa. Incluir relatos de clientes na página de sobre pode dar aos visitantes uma opinião mais realista e embasada sobre seu negócio.
                             </p>
                         </div>
@@ -114,18 +114,33 @@
             </div>
         </section>
 
-        <section class="container d-flex align-items-center" id="contact">
-            <div class="text-center">
-                <div>
-                    <h4>Contato</h4>
-                    <h4>Para fazer contato conosco, mande mensagem no WhatsApp</h4>
-                    <button class="btn btn-success">
-                        <a href="https://wa.me/5511943202436" class="text-light">Fale conosco</a>
-                    </button>
-                    <p>
-                        A empresa que se define como “uma escola das coisas que não se aprendem na escola” deixa os próprios alunos falarem de sua experiência na página de sobre. Isso ajuda a passar credibilidade, afinal, é mais fácil confiar nos próprios clientes, que experimentaram o produto ou serviço, do que na voz da própria empresa. Incluir relatos de clientes na página de sobre pode dar aos visitantes uma opinião mais realista e embasada sobre seu negócio.
-                    </p>
+        <section id="contact" class="d-flex align-items-center justify-content-center">
+        
+            <div id="form-contact">
+                <h3 id="title-maior">Faça Contato Conosco</h3>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Seu Nome</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="João Souza">
                 </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Seu Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="nome@examplo.com">
+                </div>    
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dúvida?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button class="btn btn-dark">
+                    <a class="text-light">Enviar</a>
+                </button>
+
+                <button class="btn btn-dark">
+                    <a href="https://wa.me/5511943202436" class="text-light">Fale conosco</a>
+                </button>
+            </div>
         </section>
+        <a class="fixed-bottom text-xl-end m-3" href="https://wa.me/5511943202436">
+            <img id="img-wpp" src="https://netsuntecnologia.com.br/wp-content/uploads/2018/12/whatsapp-logo-png.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+        </a>
     </body>
 </html>
